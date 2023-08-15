@@ -155,4 +155,5 @@ void ff_avg_h264_qpel8_mc23_lasx(uint8_t *dst, const uint8_t *src,
                                  ptrdiff_t dst_stride);
 void ff_avg_h264_qpel8_mc33_lasx(uint8_t *dst, const uint8_t *src,
                                  ptrdiff_t dst_stride);
+
 #endif  // #ifndef AVCODEC_LOONGARCH_H264QPEL_LASX_H
